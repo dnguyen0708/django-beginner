@@ -1,0 +1,54 @@
+body{
+    font-family: 'Source Code Pro', monospace;
+}
+#blogTitle{
+    font-size: 6rem;
+    color:purple;
+}
+.container {
+    display: grid;
+    grid-template-columns: repeat(3,1fr); 
+}
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+#test{
+    width:33%;
+}
+h1{
+    color:blue;
+}
+.navbar-nav .nav-link:hover{
+    color:green !important;
+}
+.title{
+    font-size: 2rem;
+    color:blue;
+}
+.text-center{
+    text-align: center;
+}
+.fixed-bg {
+    /* The background image */
+    /* background-image: url("https://i.pinimg.com/originals/eb/ef/b0/ebefb0c7a04cf87e3c45169ed185de89.gif"); */
+  
+    /* Set a specified height, or the minimum height for the background image */
+    min-height: 500px;
+  
+    /* Set background image to fixed (don't scroll along with the page) */
+    background-attachment: fixed;
+  
+    /* Center the background image */
+    background-position: center;
+  
+    /* Set the background image to no repeat */
+    background-repeat: no-repeat;
+  
+    /* Scale the background image to be as large as possible */
+    background-size: cover;
+    
+
+  }

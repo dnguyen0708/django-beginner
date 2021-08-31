@@ -1,0 +1,22 @@
+{% extends 'portfolio/index.html' %}
+{% load static %}
+{% block content %}
+<div class = "fixed-bg">
+    <img class="center" src="{% static 'portfolio/catjam.gif' %}">
+
+
+
+    <div class="container">
+
+            {%for project in projects%}
+            
+                <div>
+                    <h1>{{project.title}}</h1>
+                    <p>{{project.desc}}</p>
+                    <a href={{project.url}}><img src={{project.image}} width="250" height="250"></a>
+                </div>
+            {% endfor%}
+        
+    </div>
+</div>
+{% endblock %}
