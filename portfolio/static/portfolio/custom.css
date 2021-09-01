@@ -7,7 +7,9 @@ body{
 }
 .container {
     display: grid;
-    grid-template-columns: repeat(3,1fr); 
+    position: relative;
+    grid-template-columns: repeat(3,1fr);
+    margin-bottom: 5rem;
 }
 .center {
     display: block;
@@ -51,4 +53,10 @@ h1{
     background-size: cover;
     
 
-  }
+}
+.project{
+
+    display: block;
+    padding: 10px;
+
+}
