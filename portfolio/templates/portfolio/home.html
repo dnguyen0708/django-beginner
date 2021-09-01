@@ -11,30 +11,7 @@
 
             {%for project in projects%}
 
-                <div class="project">
-                    <h1>{{project.title}}</h1>
-                    <p>{{project.desc}}</p>
-
-                    <img src={{project.image}} width="400" height="400">
-                    <a href={{project.url}}>LINK</a>
-                </div>
-            {% endfor%}
-
-    </div>
-</div>
-{% extends 'portfolio/index.html' %}
-{% load static %}
-{% block content %}
-<div>
-    <img class="center" src="{% static 'portfolio/catjam.gif' %}">
-
-
-
-    <div class="container">
-
-            {%for project in projects%}
-
-                <div class="project">
+                <div class="project-blog">
                     <h1>{{project.title}}</h1>
                     <p>{{project.desc}}</p>
 

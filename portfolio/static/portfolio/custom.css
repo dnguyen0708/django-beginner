@@ -30,9 +30,6 @@ h1{
     font-size: 2rem;
     color:blue;
 }
-.text-center{
-    text-align: center;
-}
 .fixed-bg {
     /* The background image */
     /* background-image: url("https://i.pinimg.com/originals/eb/ef/b0/ebefb0c7a04cf87e3c45169ed185de89.gif"); */
@@ -54,9 +51,7 @@ h1{
     
 
 }
-.project{
-
+.project-blog{
     display: block;
     padding: 10px;
-
 }

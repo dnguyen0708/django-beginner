@@ -12,10 +12,10 @@
 <br>
 <div class="container">
         {%for blog in blogs%}
-            <div>
+            <div class="project-blog">
                 <a class="title" href="{% url 'blog:details' blog.id%}">{{blog.title}}</a>
                 <h5>{{blog.date|date:"M d Y"|upper}}</h5>
-                <b>{{blog.desc|striptags|truncatechars:100}}</b>
+                <b>{{blog.desc|striptags|truncatechars:69}}</b>
             </div>
         {%endfor%}
 </div>
